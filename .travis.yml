@@ -5,4 +5,4 @@ python:
 install:
   - pip install pytest
 # command to run tests
-script: python -m pytest TEST/test_main.py 
+script: python -m pytest TEST/* 
